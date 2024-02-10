@@ -1,0 +1,66 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+body{
+   background-image: url("./css-pattern-by-magicpattern\ \(1\).png");
+   background-repeat: no-repeat;
+   background-size: 1600px 900px;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+}
+
+.box{
+    border:3px solid black;
+    border-radius: 40px;
+    height:400px;
+    width:650px;
+    background-color: #B4C2CF;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.display{
+    margin-top:60px;
+    height:100px;
+    width:400px;
+    border:3px solid #111;
+    border-radius: 30px;
+}
+
+.regenerate{
+    height:80px;
+    width:250px;
+    border:3px solid #111;
+    margin-top:60px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.3s ease;
+}
+
+.regenerate button{
+    font-size: 2rem;
+    border: none;
+    background: transparent;
+    
+}
+
+.regenerate:hover{
+    height:80px;
+    width:350px;
+    transform: translateX(-50% -50%);
+   
+}
